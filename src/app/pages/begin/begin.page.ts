@@ -9,7 +9,10 @@ export class BeginPage implements OnInit {
   components: ComponentInterface[] = [
     { icon: 'hammer', name: 'Action Sheet', redirectTo: '/action-sheet' },
     { icon: 'appstore', name: 'Alert', redirectTo: '/alert' },
-    { icon: 'person-add', name: 'Avatar', redirectTo: '/avatar'}
+    { icon: 'person-add', name: 'Avatar', redirectTo: '/avatar' },
+    { icon: 'logo-pinterest', name: 'Icons', redirectTo: '/buttons' },
+    { icon: 'card', name: 'Cards', redirectTo: '/card' },
+    { icon: 'checkmark-circle-outline', name: 'Check-box', redirectTo: '/check' }
   ];
   constructor() { }
 

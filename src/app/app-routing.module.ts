@@ -6,7 +6,10 @@ const routes: Routes = [
   { path: 'begin', loadChildren: './pages/begin/begin.module#BeginPageModule' },
   { path: 'alert', loadChildren: './pages/alert/alert.module#AlertPageModule' },
   { path: 'action-sheet', loadChildren: './pages/action-sheet/action-sheet.module#ActionSheetPageModule' },
-  { path: 'avatar', loadChildren: './pages/avatar/avatar.module#AvatarPageModule' }
+  { path: 'avatar', loadChildren: './pages/avatar/avatar.module#AvatarPageModule' },
+  { path: 'buttons', loadChildren: './pages/buttons/buttons.module#ButtonsPageModule' },
+  { path: 'card', loadChildren: './pages/card/card.module#CardPageModule' },
+  { path: 'check', loadChildren: './pages/check/check.module#CheckPageModule' }
 ];
 
 @NgModule({
