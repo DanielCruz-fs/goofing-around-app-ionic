@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/"></ion-back-button>
+    </ion-buttons>
+
+    <ion-title>Avatar</ion-title>
+
+    <ion-buttons slot="end">
+      <ion-avatar>
+        <img src="/assets/avatar-daniel.png" alt="dnl">
+      </ion-avatar>
+    </ion-buttons>
+    
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+    <ion-item *ngFor="let i of [1, 1, 1, 1, 1]">
+      <ion-avatar slot="start">
+        <img src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y">
+      </ion-avatar>
+      <ion-label>Kathaca</ion-label>
+    </ion-item>
+
+</ion-content>
