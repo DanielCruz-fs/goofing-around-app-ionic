@@ -12,7 +12,8 @@ export class BeginPage implements OnInit {
     { icon: 'person-add', name: 'Avatar', redirectTo: '/avatar' },
     { icon: 'logo-pinterest', name: 'Icons', redirectTo: '/buttons' },
     { icon: 'card', name: 'Cards', redirectTo: '/card' },
-    { icon: 'checkmark-circle-outline', name: 'Check-box', redirectTo: '/check' }
+    { icon: 'checkmark-circle-outline', name: 'Check-box', redirectTo: '/check' },
+    { icon: 'calendar', name: 'Date Time', redirectTo: '/date-time' }
   ];
   constructor() { }
 
