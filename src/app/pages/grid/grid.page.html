@@ -1,0 +1,17 @@
+<app-header [title]="'Grid System'"></app-header>
+
+<ion-content padding fullscreen>
+  <ion-grid fixed>
+    <ion-row>
+      <ion-col size="12" size-lg="3" size-md="4" size-sm="6" size-xs="12" *ngFor="let i of [1,1,1,1,1,1,1]">
+        <ion-card>
+          <ion-img src="/assets/shapes.svg"></ion-img>
+        
+          <ion-card-content>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam facilis nemo ea voluptatem id, sit non animi minus modi sint possimus quia laborum voluptatum sequi doloremque ut asperiores eligendi consequuntur.
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

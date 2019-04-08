@@ -13,7 +13,11 @@ export class BeginPage implements OnInit {
     { icon: 'logo-pinterest', name: 'Icons', redirectTo: '/buttons' },
     { icon: 'card', name: 'Cards', redirectTo: '/card' },
     { icon: 'checkmark-circle-outline', name: 'Check-box', redirectTo: '/check' },
-    { icon: 'calendar', name: 'Date Time', redirectTo: '/date-time' }
+    { icon: 'calendar', name: 'Date Time', redirectTo: '/date-time' },
+    { icon: 'car', name: 'Fab', redirectTo: '/fab' },
+    { icon: 'grid', name: 'Grid Layout', redirectTo: '/grid' },
+    { icon: 'infinite', name: 'Infinite Scroll', redirectTo: '/infinite-scroll' },
+    { icon: 'code-working', name: 'Inputs', redirectTo: '/input' }
   ];
   constructor() { }
 
