@@ -12,5 +12,6 @@
   { "icon": "code-working", "name": "Inputs", "redirectTo": "/input" },
   { "icon": "list", "name": "List", "redirectTo": "/list" },
   { "icon": "refresh-circle", "name": "Loading", "redirectTo": "/loading" },
-  { "icon": "phone-portrait", "name": "Modal", "redirectTo": "/modal" }
+  { "icon": "phone-portrait", "name": "Modal", "redirectTo": "/modal" },
+  { "icon": "pricetags", "name": "Pop Over", "redirectTo": "/popover" }
 ]
