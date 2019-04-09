@@ -13,5 +13,7 @@
   { "icon": "list", "name": "List", "redirectTo": "/list" },
   { "icon": "refresh-circle", "name": "Loading", "redirectTo": "/loading" },
   { "icon": "phone-portrait", "name": "Modal", "redirectTo": "/modal" },
-  { "icon": "pricetags", "name": "Pop Over", "redirectTo": "/popover" }
+  { "icon": "pricetags", "name": "Pop Over", "redirectTo": "/popover" },
+  { "icon": "search", "name": "Search Bar", "redirectTo": "/searchbar" },
+  { "icon": "copy", "name": "Segment", "redirectTo": "/segment" }
 ]

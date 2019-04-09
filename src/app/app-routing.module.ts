@@ -18,7 +18,9 @@ const routes: Routes = [
   { path: 'list', loadChildren: './pages/list/list.module#ListPageModule' },
   { path: 'loading', loadChildren: './pages/loading/loading.module#LoadingPageModule' },
   { path: 'modal', loadChildren: './pages/modal/modal.module#ModalPageModule' },
-  { path: 'popover', loadChildren: './pages/popover/popover.module#PopoverPageModule' }
+  { path: 'popover', loadChildren: './pages/popover/popover.module#PopoverPageModule' },
+  { path: 'searchbar', loadChildren: './pages/searchbar/searchbar.module#SearchbarPageModule' },
+  { path: 'segment', loadChildren: './pages/segment/segment.module#SegmentPageModule' }
 ];
 
 @NgModule({
