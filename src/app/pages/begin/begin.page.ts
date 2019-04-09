@@ -1,4 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+import { MenuController } from '@ionic/angular';
+import { ComponentInterface } from 'src/app/interfaces/interfaces';
+import { Observable } from 'rxjs';
+import { DataService } from 'src/app/services/data.service';
 
 @Component({
   selector: 'app-begin',
@@ -6,30 +10,17 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./begin.page.scss'],
 })
 export class BeginPage implements OnInit {
-  components: ComponentInterface[] = [
-    { icon: 'hammer', name: 'Action Sheet', redirectTo: '/action-sheet' },
-    { icon: 'appstore', name: 'Alert', redirectTo: '/alert' },
-    { icon: 'person-add', name: 'Avatar', redirectTo: '/avatar' },
-    { icon: 'logo-pinterest', name: 'Icons', redirectTo: '/buttons' },
-    { icon: 'card', name: 'Cards', redirectTo: '/card' },
-    { icon: 'checkmark-circle-outline', name: 'Check-box', redirectTo: '/check' },
-    { icon: 'calendar', name: 'Date Time', redirectTo: '/date-time' },
-    { icon: 'car', name: 'Fab', redirectTo: '/fab' },
-    { icon: 'grid', name: 'Grid Layout', redirectTo: '/grid' },
-    { icon: 'infinite', name: 'Infinite Scroll', redirectTo: '/infinite-scroll' },
-    { icon: 'code-working', name: 'Inputs', redirectTo: '/input' },
-    { icon: 'list', name: 'List', redirectTo: '/list' },
-    { icon: 'refresh-circle', name: 'Loading', redirectTo: '/loading' }
-  ];
-  constructor() { }
+  components: Observable<ComponentInterface[]>;
+  constructor(private menuController: MenuController, private dataService: DataService) { }
 
   ngOnInit() {
+    this.components = this.dataService.getMenu();
+  }
+
+  toggleMenu() {
+    this.menuController.toggle();
   }
 
 }
 
-interface ComponentInterface {
-  icon: string;
-  name: string;
-  redirectTo: string;
-}
+
