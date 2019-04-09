@@ -17,7 +17,9 @@ export class BeginPage implements OnInit {
     { icon: 'car', name: 'Fab', redirectTo: '/fab' },
     { icon: 'grid', name: 'Grid Layout', redirectTo: '/grid' },
     { icon: 'infinite', name: 'Infinite Scroll', redirectTo: '/infinite-scroll' },
-    { icon: 'code-working', name: 'Inputs', redirectTo: '/input' }
+    { icon: 'code-working', name: 'Inputs', redirectTo: '/input' },
+    { icon: 'list', name: 'List', redirectTo: '/list' },
+    { icon: 'refresh-circle', name: 'Loading', redirectTo: '/loading' }
   ];
   constructor() { }
 
