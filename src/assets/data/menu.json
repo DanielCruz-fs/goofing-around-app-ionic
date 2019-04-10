@@ -15,5 +15,6 @@
   { "icon": "phone-portrait", "name": "Modal", "redirectTo": "/modal" },
   { "icon": "pricetags", "name": "Pop Over", "redirectTo": "/popover" },
   { "icon": "search", "name": "Search Bar", "redirectTo": "/searchbar" },
-  { "icon": "copy", "name": "Segment", "redirectTo": "/segment" }
+  { "icon": "copy", "name": "Segment", "redirectTo": "/segment" },
+  { "icon": "albums", "name": "Slides", "redirectTo": "/slides" }
 ]
